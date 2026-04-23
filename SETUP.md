@@ -48,7 +48,7 @@ wsl -l -v
 在 Ubuntu 终端中：
 
 ```bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 ```
 
 ### 2.2 一键安装
