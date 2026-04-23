@@ -107,7 +107,8 @@ A: 有的！https://item.jd.com/10218720171806.html
 
 ## 🛒 购买方式
 
-淘宝/闲鱼搜索：**hermes-agent爱马仕自学习型AI智能体远程代安装部署**
+- **淘宝**：https://item.taobao.com/item.htm?ft=t&id=1042814128061
+- **京东**：https://item.jd.com/10218720171806.html
 
 下单后联系客服，获取安装套件和一对一指导。
 
