@@ -26,12 +26,14 @@
 hermes-agent-setup/
 ├── README.md              # 套餐说明（你在这里）
 ├── QUICKSTART.md          # 5分钟快速上手（零基础友好）
-├── SETUP.md               # 详细安装步骤
+├── SETUP.md               # Windows 详细安装步骤（WSL2）
+├── MAC_LINUX.md           # Mac / Linux 详细安装指南
 ├── FEISHU.md              # 飞书机器人配置指南
 ├── WECHAT.md              # 微信接入配置指南
 ├── VIDEO_TUTORIAL.md      # 视频教程脚本（录屏参考）
+├── TAOBAO_LISTING.md      # 淘宝/京东商品描述文案
 ├── SCRIPTS/
-│   └── install.sh         # 一键安装脚本
+│   └── install.sh         # 一键安装脚本（全平台通用）
 └── TEMPLATES/
     └── .env.example       # 环境变量模板
 ```
@@ -81,14 +83,25 @@ curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scri
 
 ## ❓ 常见问题
 
+**Q: 我是 Mac 用户，能装吗？**
+A: 能！参考 [MAC_LINUX.md](MAC_LINUX.md)，macOS 安装步骤比 Windows 还简单。
+
+
+**Q: 我是 Linux 用户，能装吗？**
+A: 能！参考 [MAC_LINUX.md](MAC_LINUX.md)，支持 Ubuntu / Debian / CentOS / Fedora。
+
+
 **Q: 安装失败怎么办？**
 A: 把错误截图发给我，远程帮你排查
 
 **Q: 需要多久能装好？**
-A: 标准环境约 30 分钟，网络慢约 60 分钟
+A: Windows 约 30 分钟，Mac/Linux 约 15 分钟
 
 **Q: 支持哪些模型？**
 A: OpenAI / Anthropic / MiniMax / 阿里云百炼 / 智谱GLM / OpenRouter
+
+**Q: 有京东链接吗？**
+A: 有的！https://item.jd.com/10218720171806.html
 
 ---
 
