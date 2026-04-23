@@ -14,6 +14,30 @@
 
 ---
 
+## 🚀 5分钟快速上手（零基础友好）
+
+详见 [QUICKSTART.md](QUICKSTART.md)
+
+---
+
+## 📁 文件结构
+
+```
+hermes-agent-setup/
+├── README.md              # 套餐说明（你在这里）
+├── QUICKSTART.md          # 5分钟快速上手（零基础友好）
+├── SETUP.md               # 详细安装步骤
+├── FEISHU.md              # 飞书机器人配置指南
+├── WECHAT.md              # 微信接入配置指南
+├── VIDEO_TUTORIAL.md      # 视频教程脚本（录屏参考）
+├── SCRIPTS/
+│   └── install.sh         # 一键安装脚本
+└── TEMPLATES/
+    └── .env.example       # 环境变量模板
+```
+
+---
+
 ## 🚀 快速开始
 
 ### 第一步：检查你的电脑环境
@@ -47,35 +71,11 @@ wsl --install -d Ubuntu-22.04 --web-download
 curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 ```
 
-安装完成后验证：
-
-```bash
-hermes --version
-```
-
 ### 第四步：配置消息渠道
 
 **飞书配置** → 查看 [FEISHU.md](FEISHU.md)
 
 **微信配置** → 查看 [WECHAT.md](WECHAT.md)
-
----
-
-## 📁 文件结构
-
-```
-hermes-agent-setup/
-├── README.md              # 本文件
-├── SETUP.md               # 详细安装步骤
-├── FEISHU.md              # 飞书机器人配置指南
-├── WECHAT.md              # 微信接入配置指南
-├── SCRIPTS/
-│   ├── install.sh         # 一键安装脚本
-│   ├── setup-feishu.sh    # 飞书配置脚本
-│   └── setup-wechat.sh    # 微信配置脚本
-└── TEMPLATES/
-    └── .env.example       # 环境变量模板
-```
 
 ---
 
@@ -97,6 +97,12 @@ A: OpenAI / Anthropic / MiniMax / 阿里云百炼 / 智谱GLM / OpenRouter
 淘宝/闲鱼搜索：**hermes-agent爱马仕自学习型AI智能体远程代安装部署**
 
 下单后联系客服，获取安装套件和一对一指导。
+
+---
+
+## 📹 视频教程
+
+想录视频教客户？可以参考 [VIDEO_TUTORIAL.md](VIDEO_TUTORIAL.md)，里面有录屏脚本和工具推荐。
 
 ---
 
